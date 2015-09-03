@@ -1,0 +1,23 @@
+[submodule ".oh-my-zsh"]
+	path = .oh-my-zsh
+	url = git@github.com:robbyrussell/oh-my-zsh.git
+
+[submodule ".vim/bundle/Vundle.vim"]
+	path = .vim/bundle/Vundle.vim
+	url = git@github.com:VundleVim/Vundle.vim.git
+
+[submodule ".vim/bundle/promptline.vim"]
+	path = .vim/bundle/promptline.vim
+	url = git@github.com:edkolev/promptline.vim.git
+
+[submodule ".vim/bundle/tmuxline.vim"]
+	path = .vim/bundle/tmuxline.vim
+	url = git@github.com:edkolev/tmuxline.vim.git
+
+[submodule ".vim/bundle/vim-airline"]
+	path = .vim/bundle/vim-airline
+	url = git@github.com:bling/vim-airline.git
+
+[submodule ".vim/bundle/vim-tmux-navigator"]
+	path = .vim/bundle/vim-tmux-navigator
+	url = git@github.com:christoomey/vim-tmux-navigator.git
