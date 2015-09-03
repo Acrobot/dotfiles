@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/etc'
+let g:netrw_dirhist_2='/etc/apt/sources.list.d'
+let g:netrw_dirhist_3='/etc/profile.d'
+let g:netrw_dirhist_4='/home/local/ANT/pomirsa/.vim'
+let g:netrw_dirhist_5='/home/local/ANT/pomirsa/.tmux-powerline'
+let g:netrw_dirhist_6='/home/local/ANT/pomirsa/.tmux-powerline/config'
+let g:netrw_dirhist_7='/home/local/ANT/pomirsa/.oh-my-zsh/plugins/tmux'
