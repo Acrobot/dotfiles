@@ -1,4 +1,4 @@
-source .basic.vim
+source $HOME/.basic.vim
 
 set nocompatible              " be iMproved, required
 set laststatus=2
