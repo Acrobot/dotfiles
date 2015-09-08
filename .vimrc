@@ -1,3 +1,5 @@
+source .basic.vim
+
 set nocompatible              " be iMproved, required
 set laststatus=2
 filetype off                  " required
