@@ -21,8 +21,18 @@ Plugin 'christoomey/vim-tmux-navigator'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+set list lcs=trail:·,tab:»·
+
 let g:airline_powerline_fonts = 1
 
 let g:promptline_preset = {
         \'a' : [ promptline#slices#cwd() ],
         \'c' : [ promptline#slices#vcs_branch(), '$(git rev-parse --short HEAD 2>/dev/null)']}
+
+let g:tmuxline_preset = {
+        \'a'    : '#W',
+        \'win'  : '#I #W',
+        \'cwin' : '#I #W',
+        \'x'    : '#W',
+        \'y'    : '%a',
+        \'z'    : ['%F', '%R']}
