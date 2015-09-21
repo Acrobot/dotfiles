@@ -30,7 +30,7 @@ let g:promptline_preset = {
         \'c' : [ promptline#slices#vcs_branch(), '$(git rev-parse --short HEAD 2>/dev/null)']}
 
 let g:tmuxline_preset = {
-        \'a'    : '#W',
+        \'a'    : '#(who | cut -d " " -f1 | head -n 1)',
         \'win'  : '#I #W',
         \'cwin' : '#I #W',
         \'x'    : '#W',
