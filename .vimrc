@@ -14,6 +14,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 Plugin 'bling/vim-airline'
+Plugin 'ciaranm/detectindent'
 Bundle 'edkolev/promptline.vim'
 Bundle 'edkolev/tmuxline.vim'
 Plugin 'christoomey/vim-tmux-navigator'
